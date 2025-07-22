@@ -3,11 +3,22 @@ name: ci on ubuntu
 on:
   push:
     branches:
-      - master
+      - '**'
+    tags:
+      - '**'
   pull_request:
-    branches:
-      - master
-
+     types:            # All meaningful PR events
+      - opened
+      - edited
+      - reopened
+      - synchronize
+      - closed
+      - ready_for_review
+      - review_requested
+      - labeled
+      - unlabeled
+  workflow_dispatch: 
+    
 jobs:
   process_labels:
     runs-on: ubuntu-latest
