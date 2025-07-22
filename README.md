@@ -1,6 +1,6 @@
 <div align="left"><img src="doc/image/espnet_logo1.png" width="550"/></div>
 
-# ESPnet: end-to-end speech processing toolkit test
+# ESPnet: end-to-end speech processing toolkit
 
 |system/pytorch ver.|2.1.2|2.2.2|2.3.1|2.4.1|2.5.1|2.6.0|
 | :---- | :---: | :---: | :---: | :---: | :---: | :---: |
